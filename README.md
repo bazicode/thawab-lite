@@ -12,10 +12,14 @@ This project uses `GObject Introspection`
 and works in either `python3` and `python2`,
 for `python2` you need to install
 
+### for fedora 
 ```
 dnf install mdbtools mdbtools-devel python2-six python2-gobject-base
 ```
-
+### for ubuntu 
+```
+apt-get  install mdbtools mdbtools-dev python-six python-gobject
+```
 for `python3` you need to install
 
 ```
